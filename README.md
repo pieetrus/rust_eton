@@ -1,5 +1,5 @@
 # rust_eton - terminal text editor written in rust
-<div style="text-align:center">
+<div align="center">
 <img src="rust_eton_logo.webp" alt="Alt text" title="Optional title" height="200px">
 </div>
 
