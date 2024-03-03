@@ -21,4 +21,9 @@ I'd like to have the following:
 - latex support
 - and more with progress...
 
+## 🖊️ How can I track your progress?
+- There is a kanban project created where I try to do planning: https://github.com/users/pieetrus/projects/3
+- I will try to create issues for upcoming features on issues list: https://github.com/pieetrus/rust_eton/issues
 
+## 📚 Resources
+- https://www.flenker.blog/hecto/
