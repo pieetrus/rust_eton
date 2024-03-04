@@ -6,14 +6,18 @@ use termion::raw::IntoRawMode;
 pub struct Editor {}
 
 impl Editor {
-    pub fn run(&self) {
+    pub fn run(&self) -> Result<(), std::io::Error> {
         let _stdout = stdout().into_raw_mode().unwrap();
 
         loop {
             if let Err(error) = self.process_keypress() {
                 die(error);
             }
+            if self.process_keypress()? {
+                break;
+            }
         }
+        Ok(())
     }
     pub fn default() -> Self {
         Self {}
